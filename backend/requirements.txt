@@ -1,0 +1,27 @@
+# ===========================
+# Requirements for Agents
+# ===========================
+
+# Database connectivity
+psycopg2-binary==2.9.9        # PostgreSQL driver
+mysql-connector-python==9.0.0 # MySQL driver
+sqlalchemy==2.0.32            # ORM for SQL Agent
+
+# Retrieval-Augmented Generation (RAG)
+langchain==0.2.14             # Framework for RAG pipelines
+faiss-cpu==1.8.0.post1        # Vector search library
+sentence-transformers==3.0.1  # Embedding models
+
+# LLM / GPT integration (AMAI Agent)
+openai==1.40.0                # GPT API client
+tiktoken==0.7.0               # Tokenizer for GPT models
+
+# Utilities
+python-dotenv==1.0.1          # Load .env files
+requests==2.32.3              # HTTP requests
+pandas==2.2.2                 # Data handling for SQL Agent
+numpy==1.26.4                 # Numerical operations
+
+# Testing
+pytest==8.3.2                 # Unit testing framework
+pytest-mock==3.14.0           # Mocking utilities
